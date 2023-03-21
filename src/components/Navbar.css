@@ -1,0 +1,34 @@
+#box {
+
+    animation-name: changeBg;
+    animation-duration: 22s;
+
+    animation-iteration-count: infinite;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+@keyframes changeBg {
+
+    0%,
+    100% {
+        background-image: url("../assets/image5.png");
+    }
+
+    25% {
+        background-image: url("../assets/image2.png");
+    }
+
+
+    50% {
+        background-image: url("../assets/image3.png");
+    }
+
+    75% {
+        background-image: url("../assets/image4.png");
+    }
+
+}
